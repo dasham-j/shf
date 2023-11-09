@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global3.css" />
+  <link rel="stylesheet" href="./index3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" />
+</head>
+
+<body>
+  <div class="macbook-pro-14-3">
+    <div class="macbook-pro-14-3-child"></div>
+    <div class="macbook-pro-14-3-item"></div>
+    <div class="div">←</div>
+    <div class="macbook-pro-14-3-inner"></div>
+    <div class="div1">🗓</div>
+    <div class="choose-seats">CHOOSE SEATS</div>
+    <img class="line-icon" alt="" src="line-1.svg" />
+
+    <img class="macbook-pro-14-3-child1" alt="" src="line-2.svg" />
+
+    <div class="ellipse-div"></div>
+    <div class="available">AVAILABLE</div>
+    <div class="macbook-pro-14-3-child2"></div>
+    <div class="reserved">RESERVED</div>
+    <div class="macbook-pro-14-3-child3"></div>
+    <div class="selected">SELECTED</div>
+    <img class="union-icon" alt="" src="union0.svg" id="unionIcon0" />
+
+    <img class="union-icon1" alt="" src="union1.svg" id="unionIcon1" />
+
+    <img class="union-icon2" alt="" src="union2.svg" id="unionIcon2"/>
+
+    <img class="union-icon3" alt="" src="union3.svg" id="unionIcon3"/>
+
+    <img class="union-icon4" alt="" src="union4.svg" id="unionIcon4"/>
+
+    <img class="union-icon5" alt="" src="union5.svg" id="unionIcon5"/>
+
+    <img class="union-icon6" alt="" src="union6.svg" />
+
+    <img class="union-icon7" alt="" src="union7.svg" />
+
+    <img class="union-icon8" alt="" src="union8.svg" />
+
+    <img class="union-icon9" alt="" src="union9.svg" />
+
+    <img class="union-icon10" alt="" src="union10.svg" />
+
+    <img class="union-icon11" alt="" src="union11.svg" />
+
+    <img class="union-icon12" alt="" src="union12.svg" />
+
+    <img class="union-icon13" alt="" src="union13.svg" />
+
+    <img class="union-icon14" alt="" src="union14.svg" />
+
+    <img class="union-icon15" alt="" src="union15.svg" />
+
+    <img class="union-icon16" alt="" src="union16.svg" />
+
+    <img class="union-icon17" alt="" src="union17.svg" />
+
+    <img class="union-icon18" alt="" src="union18.svg" />
+
+    <img class="union-icon19" alt="" src="union19.svg" />
+
+    <img class="union-icon20" alt="" src="union20.svg" />
+
+    <img class="union-icon21" alt="" src="union21.svg" />
+
+    <img class="union-icon22" alt="" src="union22.svg" />
+
+    <img class="vector-icon" alt="" src="vector.svg" />
+
+    <img class="union-icon23" alt="" src="union23.svg" />
+
+    <img class="union-icon24" alt="" src="union24.svg" />
+
+    <img class="union-icon25" alt="" src="union25.svg" />
+
+    <img class="union-icon26" alt="" src="union26.svg" />
+
+    <img class="union-icon27" alt="" src="union27.svg" />
+
+    <img class="union-icon28" alt="" src="union28.svg" />
+
+    <img class="union-icon29" alt="" src="union29.svg" />
+
+    <img class="union-icon30" alt="" src="union30.svg" />
+
+    <img class="union-icon31" alt="" src="union31.svg" />
+
+    <img class="union-icon32" alt="" src="union32.svg" />
+
+    <img class="union-icon33" alt="" src="union33.svg" />
+
+    <img class="union-icon34" alt="" src="union34.svg" />
+
+    <img class="union-icon35" alt="" src="union35.svg" />
+
+    <img class="vector-icon1" alt="" src="vector1.svg" id="vector" />
+  </div>
+
+  <script>
+    var unionIcon0 = document.getElementById("unionIcon0");
+    var unionIcon1 = document.getElementById("unionIcon1");
+    let btns = document.querySelectorAll('img');
+let count = 0;
+    btns.forEach(function (i) {
+     
+     i.addEventListener('click', function() {
+      t=i.src;
+      g=i.id;
+      
+      m=g.substring(9,g.length);
+      if (t == "union" +m+ ".svg"){
+         i.src = "bp/union" +m+ ".svg";
+         count ++;
+        }
+         else if (t == "/bp/union" + m + ".svg"){
+          i.src = "union" + m + ".svg";
+          count--;
+         }
+        
+        
+        
+  });
+});
+    
+    
+  
+  
+
+    var vector = document.getElementById("vector");
+    if (vector) {
+      vector.addEventListener("click", function (e) {
+        if (count > 0){
+          sessionStorage.setItem("ct",count)
+          window.location="index 4.html"
+        }
+        else if (count == 0){
+          alert("Please select atleast one seat to checkout");
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

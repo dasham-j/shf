@@ -1,0 +1,365 @@
+.macbook-pro-14-3-child {
+  position: absolute;
+  top: -76px;
+  left: -94px;
+  background: linear-gradient(
+    180deg,
+    rgba(182, 17, 107, 0.5),
+    rgba(182, 17, 107, 0)
+  );
+  width: 1664px;
+  height: 1928px;
+}
+.macbook-pro-14-3-item {
+  position: absolute;
+  top: 6px;
+  left: 22px;
+  border-radius: 50%;
+  background-color: var(--color-midnightblue);
+  width: 90px;
+  height: 90px;
+}
+.div {
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--color-mistyrose);
+  display: inline-block;
+  width: 81px;
+  height: 91px;
+}
+.macbook-pro-14-3-inner {
+  position: absolute;
+  top: 6px;
+  left: 1408px;
+  border-radius: 50%;
+  background-color: var(--color-midnightblue);
+  width: 90px;
+  height: 90px;
+}
+.choose-seats,
+.div1 {
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+}
+.div1 {
+  top: 22px;
+  left: 1417px;
+  font-size: 48px;
+  color: var(--color-mistyrose);
+  width: 71px;
+  height: 79px;
+}
+.choose-seats {
+  top: 56px;
+  left: 573px;
+  font-size: 40px;
+  width: 330px;
+  height: 45px;
+}
+.line-icon {
+  position: absolute;
+  top: 184.82px;
+  left: 428.34px;
+  width: 629.4px;
+  height: 86.94px;
+}
+.ellipse-div,
+.macbook-pro-14-3-child1 {
+  position: absolute;
+  top: 199.82px;
+  left: 443.34px;
+  width: 599.4px;
+  height: 56.94px;
+}
+.ellipse-div {
+  top: 920px;
+  left: 454px;
+  border-radius: 50%;
+  background-color: #fffdfd;
+  width: 30px;
+  height: 30px;
+}
+.available {
+  position: absolute;
+  top: 922px;
+  left: 480px;
+  font-weight: 800;
+  display: inline-block;
+  width: 150px;
+  height: 28px;
+}
+.macbook-pro-14-3-child2 {
+  position: absolute;
+  top: 920px;
+  left: 676px;
+  border-radius: 50%;
+  background-color: #b6116b;
+  width: 32px;
+  height: 30px;
+}
+.reserved {
+  position: absolute;
+  top: 922px;
+  left: 702px;
+  font-weight: 800;
+  display: inline-block;
+  width: 143px;
+  height: 28px;
+}
+.macbook-pro-14-3-child3 {
+  position: absolute;
+  top: 920px;
+  left: 888px;
+  border-radius: 50%;
+  background-color: #09fbd3;
+  width: 30px;
+  height: 30px;
+}
+.selected {
+  position: absolute;
+  top: 923px;
+  left: 911px;
+  font-weight: 800;
+  display: inline-block;
+  width: 140px;
+  height: 27px;
+}
+.union-icon {
+  position: absolute;
+  top: 411.63px;
+  left: 616.76px;
+  width: 38px;
+  height: 25px;
+  cursor: pointer;
+}
+.union-icon1,
+.union-icon2,
+.union-icon3,
+.union-icon4,
+.union-icon5 {
+  position: absolute;
+  top: 413.58px;
+  left: 997.33px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon2,
+.union-icon3,
+.union-icon4,
+.union-icon5 {
+  left: 908.33px;
+}
+.union-icon3,
+.union-icon4,
+.union-icon5 {
+  top: 413.13px;
+  left: 819.3px;
+}
+.union-icon4,
+.union-icon5 {
+  top: 411.63px;
+  left: 441px;
+}
+.union-icon5 {
+  left: 528.04px;
+}
+.union-icon6,
+.union-icon7,
+.union-icon8,
+.union-icon9 {
+  position: absolute;
+  top: 721.22px;
+  left: 454.39px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon7,
+.union-icon8,
+.union-icon9 {
+  left: 630.15px;
+}
+.union-icon8,
+.union-icon9 {
+  left: 543.11px;
+}
+.union-icon9 {
+  left: 722.22px;
+}
+.union-icon10,
+.union-icon11,
+.union-icon12,
+.union-icon13 {
+  position: absolute;
+  top: 721.22px;
+  left: 810.94px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon11,
+.union-icon12,
+.union-icon13 {
+  left: 899.65px;
+}
+.union-icon12,
+.union-icon13 {
+  top: 344px;
+  left: 938.15px;
+}
+.union-icon13 {
+  top: 347.01px;
+  left: 849.44px;
+}
+.union-icon14,
+.union-icon15,
+.union-icon16,
+.union-icon17 {
+  position: absolute;
+  top: 344px;
+  left: 489.54px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon15,
+.union-icon16,
+.union-icon17 {
+  left: 588.31px;
+}
+.union-icon16,
+.union-icon17 {
+  top: 522.84px;
+  left: 497.91px;
+}
+.union-icon17 {
+  left: 673.67px;
+}
+.union-icon18,
+.union-icon19,
+.union-icon20,
+.union-icon21 {
+  position: absolute;
+  top: 522.84px;
+  left: 586.63px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon19,
+.union-icon20,
+.union-icon21 {
+  left: 765.74px;
+}
+.union-icon20,
+.union-icon21 {
+  left: 854.46px;
+}
+.union-icon21 {
+  left: 943.17px;
+}
+.union-icon22,
+.union-icon23,
+.union-icon24,
+.vector-icon {
+  position: absolute;
+  top: 588.97px;
+  left: 454.39px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon23,
+.union-icon24,
+.vector-icon {
+  left: 630.15px;
+}
+.union-icon23,
+.union-icon24 {
+  left: 543.11px;
+}
+.union-icon24 {
+  left: 722.22px;
+}
+.union-icon25,
+.union-icon26,
+.union-icon27,
+.union-icon28 {
+  position: absolute;
+  top: 588.97px;
+  left: 810.94px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon26,
+.union-icon27,
+.union-icon28 {
+  left: 988.37px;
+}
+.union-icon27,
+.union-icon28 {
+  left: 899.65px;
+}
+.union-icon28 {
+  top: 655.09px;
+  left: 454.39px;
+}
+.union-icon29,
+.union-icon30,
+.union-icon31,
+.union-icon32 {
+  position: absolute;
+  top: 655.09px;
+  left: 630.15px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon30,
+.union-icon31,
+.union-icon32 {
+  left: 543.11px;
+}
+.union-icon31,
+.union-icon32 {
+  left: 722.22px;
+}
+.union-icon32 {
+  left: 810.94px;
+}
+.union-icon33,
+.union-icon34,
+.union-icon35,
+.vector-icon1 {
+  position: absolute;
+  top: 655.09px;
+  left: 988.37px;
+  width: 38px;
+  height: 25px;
+}
+.union-icon34,
+.union-icon35,
+.vector-icon1 {
+  left: 899.65px;
+}
+.union-icon35,
+.vector-icon1 {
+  top: 721.22px;
+  left: 988.37px;
+}
+.vector-icon1 {
+  top: 833px;
+  left: 581px;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+}
+.macbook-pro-14-3 {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
